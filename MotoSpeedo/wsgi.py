@@ -16,7 +16,7 @@ import sys
 
 from django.core.wsgi import get_wsgi_application
 sys.path.append('/var/www/vhosts/motospeedo')
-sys.path.append('/var/www/vhosts/motospeedo/MotoSpeedoAPI/venv/lib/python3.4/site-packages')
+sys.path.append('/var/www/vhosts/motospeedo/MotoSpeedoAPI/venv/lib/python3.6/site-packages')
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "MotoSpeedo.settings")
 
