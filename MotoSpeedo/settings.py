@@ -158,4 +158,8 @@ LOGGING = {
             'level': 'ERROR',
             'propagate': True,
         },
+        'motospeedo': {
+            'handlers': ['applogfile',],
+            'level': 'DEBUG',
+        },
     }
