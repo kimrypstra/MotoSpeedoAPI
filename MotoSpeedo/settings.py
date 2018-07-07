@@ -147,7 +147,7 @@ LOGGING = {
         'applogfile': {
             'level':'DEBUG',
             'class':'logging.handlers.RotatingFileHandler',
-            'filename': os.path.join(DJANGO_ROOT, 'motospeedo.log'),
+            'filename': '/var/log/django/motospeedo.log',
             'maxBytes': 1024*1024*15, # 15MB
             'backupCount': 10,
         }
